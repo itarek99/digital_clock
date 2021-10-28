@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E8EBF2;
+}
+
+.box {
+    font-weight: 300;
+    color: #fff;
+    font-size: 4rem;
+    background-color: #7434E3;
+    margin-inline: 1rem;
+
+    height: 120px;
+    width: 120px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 10px 45px -8px rgba(116, 52, 227, 0.7);
+}
+
+
+
+.separator {
+    color: #B18FED;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 4rem;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#am-pm-box {
+    font-size: 1.1rem;
+    height: 36px;
+    width: 48px;
+    margin-left: 0;
+    align-self: flex-end;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#today-box {
+    font-size: 1.5rem;
+    background-color: #292837;
+    height: 80px;
+    width: 220px;
+    margin-top: -40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.time-box {
+    display: flex;
+    background-color: #fff;
+    padding: 4rem 5rem 6rem 5rem;
+}
